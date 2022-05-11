@@ -57,7 +57,7 @@ class Discover
 
         foreach ($prefixes as $prefix)
         {
-            list ($host, $port) = $this->analyse($email, $prefix, [465, 587, 25]);
+            list ($host, $port) = $this->analyse($email, $prefix, [587, 465, 25]);
 
             if ($host && $port)
             {
