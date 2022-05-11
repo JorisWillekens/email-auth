@@ -64,8 +64,8 @@ class Discover
                 $encTypes =
                 [
                     25  => null,
-                    465 => 'ssl',
                     587 => 'tls',
+                    465 => 'ssl',
                 ];
 
                 return array
